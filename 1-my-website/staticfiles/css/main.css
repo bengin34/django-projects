@@ -1,21 +1,42 @@
 body {
+  background-color: #f8f8f8 !important;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #f8f8f8 !important;
+  line-height: 2;
 }
+
+
 
 h3 {
   color: red;
 }
 
-#profile-wrapper{
-    text-align:center
+#profile-wrapper {
+  text-align: center;
 }
 
 #profile-pic {
-  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 50%;
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.social-links ul,
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.social {
+  margin: 10px;
+  width: 20px;
+  height: 20px;
 }
