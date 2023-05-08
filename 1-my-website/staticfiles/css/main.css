@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f8f8f8 !important;
+}
+
+h3 {
+  color: red;
+}
+
+#profile-wrapper{
+    text-align:center
+}
+
+#profile-pic {
+  margin: 20px;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
