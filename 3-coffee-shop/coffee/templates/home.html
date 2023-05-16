@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+<h1>Feel Good Coffee </h1>
+<div class="row" > </div>
+<ul>
+    {% for coffee in coffee  %}
+            <li>{{coffee.name}} (${{coffee.price}})</li>
+    {% endfor %}
+
+</ul>
+
+{% endblock %} 

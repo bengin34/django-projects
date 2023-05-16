@@ -8,3 +8,6 @@ class Coffee(models.Model):
     quantity = models.IntegerField()
     image = models.CharField(max_length=2083)
 
+    def __str__(self):
+        return f'{self.name} - price:{self.price} - stock:{self.quantity}'
+    
