@@ -1,0 +1,12 @@
+asgiref==3.6.0
+certifi==2023.5.7
+charset-normalizer==3.1.0
+Django==4.2.1
+django-feedparser==0.2.1
+feedparser==6.0.10
+idna==3.4
+requests==2.30.0
+sgmllib3k==1.0.0
+six==1.16.0
+sqlparse==0.4.4
+urllib3==2.0.2
